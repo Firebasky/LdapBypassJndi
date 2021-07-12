@@ -1,5 +1,7 @@
 # LdapBypassJndi
 
+[中文版本(Chinese version)](README.zh-cn.md)
+
 >The function of the tool is to inject JNDI through LDAP
 
 Principle: use LDAP to return serialized data and trigger local gadget
