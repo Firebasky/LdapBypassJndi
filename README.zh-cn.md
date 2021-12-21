@@ -18,6 +18,13 @@ java -jar ysoserial.jar CommonsCollections6 "calc" | base64 >win-cc6-calc-poc.se
 
 简单的说相当于一个反序列化入口，要利用就需要本地有。
 
+
+**更新 2021/12/21**
+
+bypass log4j2 的ldap服务
+
+https://github.com/Firebasky/Java/blob/main/java%E6%97%A5%E5%B8%B8/%E9%97%B2%E8%B0%88log4j2.md
+
 >参考：
 >
 >https://kingx.me/Restrictions-and-Bypass-of-JNDI-Manipulations-RCE.html
