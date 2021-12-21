@@ -20,6 +20,12 @@ java -jar ysoserial.jar CommonsCollections6 "calc" | base64 >win-cc6-calc-poc.se
 
 In short, it is equivalent to a deserialization entry. To use it, you need to have a local one.
 
+**Update 2021/12/21**
+
+LDAP service for bypass log4j2
+
+https://github.com/Firebasky/Java/blob/main/java%E6%97%A5%E5%B8%B8/%E9%97%B2%E8%B0%88log4j2.md
+
 >Reference resources:
 >
 >https://kingx.me/Restrictions-and-Bypass-of-JNDI-Manipulations-RCE.html
